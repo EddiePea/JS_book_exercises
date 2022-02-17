@@ -1,0 +1,2 @@
+# Ignore all .DS_Store files 
+git_jspractice/*.DS_Store
