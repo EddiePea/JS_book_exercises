@@ -1,0 +1,23 @@
+{
+  "name": "git_jspractice",
+  "version": "1.0.0",
+  "description": "This is a repository in which I am practising the exercises set in the JS book as part of the Launch School preliminiaries.",
+  "main": "age.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddiePea/JS_book_exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EddiePea/JS_book_exercises/issues"
+  },
+  "homepage": "https://github.com/EddiePea/JS_book_exercises#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
