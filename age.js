@@ -1,4 +1,6 @@
-let age = 20;
+let rlSync = require('readline-sync');
+
+let age = Number(rlSync.question('What is your age?\n'));
 let timePast = 10;
 
 console.log(`In ${timePast} years, you will be ${age + timePast} years old.`);

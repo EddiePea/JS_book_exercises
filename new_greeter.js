@@ -1,4 +1,6 @@
 let rlSync = require ('readline-sync');
-let nameQu = rlSync.question("What is your name, friend?");
 
-console.log(`Hello ${nameQu}, nice to meet you!`);
+let questionOne = rlSync.question("What is your first name, friend?");
+let questionTwo = rlSync.question("What is your surname, friend?");
+
+console.log(`Hello ${questionOne} ${questionTwo}, nice to meet you!`);
