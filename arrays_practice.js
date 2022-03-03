@@ -10,7 +10,10 @@ function equalsArray(array1, array2) {
   return true; 
 }
 
-array1 = [1, 2, 3, 4];
+array1 = [1, 2, 3, 4, 5];
 array2 = [1, 2, 3, 4, 5];
 
 console.log(equalsArray(array1, array2));
+console.log(equalsArray([1,2,3,4], [3,4,5,6]));
+console.log(equalsArray([1,2,[3,4]], [1,2,[3,4]]));
+
