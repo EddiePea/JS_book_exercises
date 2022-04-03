@@ -1,0 +1,2 @@
+let greeting = 'Aloha!';
+
